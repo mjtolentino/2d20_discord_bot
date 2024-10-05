@@ -26,8 +26,8 @@ systems. If there's other rolls you want this to make, either make a pull reques
     level of 3, your command would be `/rolld20 2 12 20 3` the bot will return two successes on a roll of '2, 15'.
 * `/hitd20`: This command rolls 1d20 and returns the hit location. It takes one optional argument of 'handy' (so
   `/hitd20 handy`) to return the hits on a Mr. Handy instead.
-* `/damaged20`: This command rolls a number of d6 and returns a count of hits as well as the number of effect triggers.
-  for example if I use `/damaged20 5` and get the results '1, 2, 3, 3, 5', it will return that you had four successes and
+* `/effectsd6`: This command rolls a number of d6 and returns a count of hits as well as the number of effect triggers.
+  for example if I use `/effectsd6 5` and get the results '1, 2, 3, 3, 5', it will return that you had four successes and
   one effect trigger.
 
 ## Package Management
